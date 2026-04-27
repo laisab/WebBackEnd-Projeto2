@@ -1,0 +1,23 @@
+[2026-04-27T14:50:13.565Z] Erro ao inserir Vendedor: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "10112359781983" }
+[2026-04-27T15:04:26.515Z] Erro ao inserir Vendedor: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "10112359781980" }
+[2026-04-27T16:23:05.545Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "12112359782891" }
+[2026-04-27T16:26:50.718Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "12112359782897" }
+[2026-04-27T16:38:35.890Z] Erro ao inserir Produto: result is not defined
+[2026-04-27T16:41:59.519Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "22622419787833" }
+[2026-04-27T16:41:59.525Z] Erro ao inserir Produto: result is not defined
+[2026-04-27T16:43:39.014Z] Erro ao inserir Produto: vendedor is not defined
+[2026-04-27T16:44:29.026Z] Erro ao inserir Produto: vendedor is not defined
+[2026-04-27T16:46:13.737Z] Erro ao inserir Produto: vendedor is not defined
+[2026-04-27T16:51:57.799Z] Erro ao inserir Produto: vendedor is not defined
+[2026-04-27T16:55:46.310Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "12345678912345" }
+[2026-04-27T16:56:25.509Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "12345678912345" }
+[2026-04-27T17:45:46.174Z] Erro ao inserir Produto: cnpj is not defined
+[2026-04-27T17:50:03.301Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "42345678912345" }
+[2026-04-27T17:50:54.798Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "52345678912345" }
+[2026-04-27T17:58:20.789Z] Erro ao inserir Produto: Não foi possível vincular o produto ao vendedor especificado.
+[2026-04-27T18:28:47.011Z] Erro ao inserir Produto: Selector must be a valid JavaScript object
+[2026-04-27T18:32:48.630Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "12345678912345" }
+[2026-04-27T18:32:48.638Z] Erro ao inserir Cliente: E11000 duplicate key error collection: ecommerce.clientes index: cpf_1 dup key: { cpf: "11111111111" }
+[2026-04-27T18:33:59.911Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "22345678912345" }
+[2026-04-27T18:33:59.915Z] Erro ao inserir Produto: Não foi possível vincular o produto ao vendedor especificado.
+[2026-04-27T18:33:59.917Z] Erro ao inserir Cliente: E11000 duplicate key error collection: ecommerce.clientes index: cpf_1 dup key: { cpf: "21111111111" }
