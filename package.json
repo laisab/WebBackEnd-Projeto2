@@ -1,16 +1,27 @@
 {
-  "name": "laisborges_projeto_backend",
+  "name": "projeto2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este projeto foi desenvolvido como parte da disciplina de Programação Web Back-End, com o objetivo de implementar um sistema de e-commerce utilizando Node.js e MongoDB.",
+  "keywords": [],
+  "homepage": "https://github.com/laisab/WebBackEnd-Projeto1#readme",
+  "bugs": {
+    "url": "https://github.com/laisab/WebBackEnd-Projeto1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laisab/WebBackEnd-Projeto1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "hbs": "^4.2.1",
     "mongodb": "^7.2.0"
   }
 }

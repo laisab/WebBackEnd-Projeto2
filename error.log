@@ -22,3 +22,9 @@
 [2026-04-27T18:33:59.915Z] Erro ao inserir Produto: Não foi possível vincular o produto ao vendedor especificado.
 [2026-04-27T18:33:59.917Z] Erro ao inserir Cliente: E11000 duplicate key error collection: ecommerce.clientes index: cpf_1 dup key: { cpf: "21111111111" }
 [2026-05-29T15:36:20.712Z] Erro ao inserir Produto: Não foi possível vincular o produto ao vendedor especificado.
+[2026-05-29T20:07:54.905Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "62345678912345" }
+[2026-05-29T20:07:54.928Z] Erro ao inserir Produto: Não foi possível vincular o produto ao vendedor especificado.
+[2026-05-29T20:07:54.931Z] Erro ao inserir Cliente: E11000 duplicate key error collection: ecommerce.clientes index: cpf_1 dup key: { cpf: "61111111111" }
+[2026-05-29T20:08:51.835Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "62345678912345" }
+[2026-05-29T20:08:51.840Z] Erro ao inserir Produto: Não foi possível vincular o produto ao vendedor especificado.
+[2026-05-29T20:08:51.842Z] Erro ao inserir Cliente: E11000 duplicate key error collection: ecommerce.clientes index: cpf_1 dup key: { cpf: "61111111111" }
