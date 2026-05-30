@@ -69,7 +69,7 @@ class Cliente{
         }
     }
 
-    async pesquisarCpf(cpf){
+    static async pesquisarCpf(cpf){
         try{
             const db = await conectarDB();
             const collection = db.collection("clientes");
@@ -84,7 +84,7 @@ class Cliente{
                 console.log("Cliente não encontrado.");
             }
 
-            return result;
+            return await result;
         }catch(error){
             Cliente.logError(error);
         }

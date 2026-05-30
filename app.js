@@ -1,11 +1,7 @@
-let http = require('http'), express = require('express'), path = require('path'), app = express(), hbs = require('hbs'), session = require('express-session'), 
-    Cliente = require('./model/Cliente'), Produto = require('./model/Produto'), Vendedor = require('./model/Vendedor');
+const http = require('http'), express = require('express'), path = require('path'), session = require('express-session'), app = express();
+const Cliente = require('./model/Cliente'), Vendedor = require('./model/Vendedor'), Produto = require('./model/Produto');
 
-app.set('view engine', 'hbs');
-app.set('views', path.join(__dirname, 'views'));
-
-app.use(express.static(path.join(__dirname, 'public')));
-
+// Middleware que implementa a session
 app.use(session({
     secret: 'segredo',
     resave: false,
@@ -13,8 +9,12 @@ app.use(session({
     cookie: {secure : false}
 }));
 
+// Rota de teste
 app.get('/teste', (req, res) => {
-    res.end('Teste bem sucedido');
+    res.end('E-commerce funcionando!');
 });
 
-http.createServer(app).listen(3000);
+// Rotas para Cliente
+
+
+http.createServer(app).listen(8000);

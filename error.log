@@ -28,3 +28,25 @@
 [2026-05-29T20:08:51.835Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "62345678912345" }
 [2026-05-29T20:08:51.840Z] Erro ao inserir Produto: Não foi possível vincular o produto ao vendedor especificado.
 [2026-05-29T20:08:51.842Z] Erro ao inserir Cliente: E11000 duplicate key error collection: ecommerce.clientes index: cpf_1 dup key: { cpf: "61111111111" }
+[2026-05-30T20:42:21.225Z] Erro ao inserir Cliente: Cannot destructure property 'nome' of 'req.body' as it is undefined.
+[2026-05-30T20:43:41.016Z] Erro ao inserir Cliente: Cannot destructure property 'nome' of 'req.body' as it is undefined.
+[2026-05-30T20:44:16.488Z] Erro ao inserir Cliente: Cannot destructure property 'nome' of 'req.body' as it is undefined.
+[2026-05-30T20:45:09.502Z] Erro ao inserir Cliente: Cannot destructure property 'nome' of 'req.body' as it is undefined.
+[2026-05-30T20:45:42.490Z] Erro ao inserir Cliente: Cannot destructure property 'nome' of 'req.body' as it is undefined.
+[2026-05-30T20:46:21.954Z] Erro ao inserir Cliente: Cannot destructure property 'nome' of 'req.body' as it is undefined.
+[2026-05-30T20:46:22.571Z] Erro ao inserir Cliente: Cannot destructure property 'nome' of 'req.body' as it is undefined.
+[2026-05-30T22:03:03.421Z] Erro ao inserir Cliente: Cannot destructure property 'nome' of 'req.body' as it is undefined.
+[2026-05-30T22:05:27.265Z] Erro ao inserir Cliente: Cannot destructure property 'nome' of 'req.body' as it is undefined.
+[2026-05-30T22:07:11.167Z] Erro ao inserir Cliente: Cannot read properties of undefined (reading 'nome')
+[2026-05-30T22:07:12.212Z] Erro ao inserir Cliente: Cannot read properties of undefined (reading 'nome')
+[2026-05-30T22:33:56.490Z] Erro ao inserir Cliente: res.write is not a function
+[2026-05-30T22:34:07.946Z] Erro ao inserir Cliente: res.write is not a function
+[2026-05-30T22:34:36.678Z] Erro ao inserir Cliente: res.write is not a function
+[2026-05-30T22:34:36.859Z] Erro ao inserir Cliente: res.write is not a function
+[2026-05-30T22:34:37.230Z] Erro ao inserir Cliente: res.write is not a function
+[2026-05-30T22:34:37.450Z] Erro ao inserir Cliente: res.write is not a function
+[2026-05-30T22:34:54.450Z] Erro ao inserir Cliente: res.write is not a function
+[2026-05-30T22:36:45.625Z] Erro ao inserir Cliente: res.render is not a function
+[2026-05-30T22:38:20.672Z] Erro ao inserir Cliente: Cannot read properties of undefined (reading 'nome')
+[2026-05-30T22:41:54.829Z] Erro ao inserir Cliente: Cannot destructure property 'nome' of 'req.body' as it is undefined.
+[2026-05-30T22:42:25.061Z] Erro ao inserir Cliente: Cannot destructure property 'nome' of 'req.body' as it is undefined.
