@@ -44,7 +44,7 @@ class Produto {
         }
     }
 
-    static logError(error){
+    static async logError(error){
         const mensagem = `[${new Date().toISOString()}] Erro ao inserir Produto: ${error.message}\n`;
         fs.appendFileSync('error.log', mensagem);
     }
@@ -76,7 +76,7 @@ class Produto {
         }
     }
 
-    static async pesquisarNome(nome){
+    async pesquisarNome(nome){
         try{
             const db = await conectarDB();
             const collection = db.collection("produtos");
@@ -97,7 +97,7 @@ class Produto {
         }
     }
 
-    static async deletarNome(nome){
+    async deletarNome(nome){
         try{
             const db = await conectarDB();
             const collection = db.collection("produtos");

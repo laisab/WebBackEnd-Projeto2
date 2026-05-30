@@ -44,12 +44,12 @@ class Cliente{
         }
     }
 
-    static logError(error){
+    static async logError(error){
         const mensagem = `[${new Date().toISOString()}] Erro ao inserir Cliente: ${error.message}\n`;
         fs.appendFileSync('error.log', mensagem);
     }
 
-    static async inserirDB(){
+    async inserirDB(){
         try{
             const db = await conectarDB();
             const collection = db.collection("clientes");
@@ -69,7 +69,7 @@ class Cliente{
         }
     }
 
-    static async pesquisarCpf(cpf){
+    async pesquisarCpf(cpf){
         try{
             const db = await conectarDB();
             const collection = db.collection("clientes");
@@ -90,7 +90,7 @@ class Cliente{
         }
     }
 
-    static async deletarCpf(cpf){
+    async deletarCpf(cpf){
         try{
             const db = await conectarDB();
             const collection = db.collection("clientes");

@@ -35,7 +35,7 @@ class Vendedor{
         }
     }
 
-    static logError(error){
+    static async logError(error){
         const mensagem = `[${new Date().toISOString()}] Erro ao inserir Produto: ${error.message}\n`;
         fs.appendFileSync('error.log', mensagem);
     }
@@ -58,7 +58,7 @@ class Vendedor{
         }
     }
 
-    static async pesquisarCnpj(cnpj){
+    async pesquisarCnpj(cnpj){
         try{
             const db = await conectarDB();
             const collection = db.collection("vendedores");
@@ -79,7 +79,7 @@ class Vendedor{
         }
     }
 
-    static async deletarCnpj(cnpj){
+    async deletarCnpj(cnpj){
         try{
             const db = await conectarDB();
             const collection = db.collection("vendedores");
