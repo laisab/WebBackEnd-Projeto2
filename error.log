@@ -54,3 +54,4 @@
 [2026-05-30T22:47:18.119Z] Erro ao inserir Cliente: E11000 duplicate key error collection: ecommerce.clientes index: cpf_1 dup key: { cpf: "12111111111" }
 [2026-05-30T22:53:27.565Z] Erro ao inserir Produto: E11000 duplicate key error collection: ecommerce.vendedores index: cnpj_1 dup key: { cnpj: "11345678912345" }
 [2026-05-30T22:53:27.575Z] Erro ao inserir Cliente: E11000 duplicate key error collection: ecommerce.clientes index: cpf_1 dup key: { cpf: "12111111111" }
+[2026-05-31T00:32:52.635Z] Erro ao inserir Cliente: Cannot destructure property 'nome' of 'req.body' as it is undefined.
